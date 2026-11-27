@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F3EE"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:textColor="#34483D"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnNovoAgendamento"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="NOVO AGENDAMENTO"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#526B59"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalAgendamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendamentos"
+        android:textColor="#34483D"
+        android:textSize="15sp"
+        android:padding="8dp"/>
+
+    <ListView
+        android:id="@+id/listaAgendamentos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#D8D8D0"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

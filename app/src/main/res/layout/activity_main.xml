@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F3EE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/logo_dre"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:contentDescription="Logo DRE Pilates"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DRE PILATES"
+            android:textColor="#34483D"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema de gerenciamento"
+            android:textColor="#77776F"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/txtResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bem-vindo ao DRE Pilates"
+            android:textColor="#34483D"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="18dp"
+            android:background="#E5E8DF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnAlunos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ALUNOS"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#526B59"
+            android:layout_marginBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btnAgenda"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="AGENDA"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#526B59"
+            android:layout_marginBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btnAulas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="AULAS"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#526B59"
+            android:layout_marginBottom="14dp"/>
+
+    </LinearLayout>
+</ScrollView>
